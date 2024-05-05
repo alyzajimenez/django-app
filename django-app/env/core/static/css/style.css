@@ -1,0 +1,89 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ .icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+/* Header */
+nav {
+  background-color: #039be5; /* Set your desired header background color */
+  padding: 0 20px; /* Add padding to the header */
+  height: 60px; /* Set the height of the header */
+  line-height: 60px; /* Center the text vertically */
+}
+
+nav ul a {
+  color: #fff; /* Set your desired link color */
+  font-weight: 500; /* Make the font weight bold */
+}
+
+.brand-logo {
+  font-size: 1.5rem; /* Adjust the font size of the brand logo */
+}
+
+/* Sidenav */
+.sidenav-trigger {
+  color: #fff; /* Set the color of the sidenav trigger icon */
+}
+
+/* Main Content */
+.main-content {
+  padding: 20px; /* Add padding to the main content */
+}
+
+/* Footer */
+.page-footer {
+  background-color: #ff8f00; /* Set your desired footer background color */
+  padding: 20px 0; /* Add padding to the footer */
+  color: #fff; /* Set the text color of the footer */
+}
+
+.page-footer h5 {
+  font-size: 1.2rem; /* Adjust the font size of footer headings */
+}
+
+.page-footer ul li a {
+  color: #fff; /* Set your desired footer link color */
+  font-weight: 500; /* Make the font weight bold */
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 992px) {
+  nav {
+    padding: 0 10px; /* Adjust padding for smaller screens */
+  }
+
+  .container {
+    margin-left: 0; /* Reset margin for smaller screens */
+  }
+
+  .sidenav {
+    width: 200px; /* Reduce width of sidenav for smaller screens */
+    padding-top: 56px; /* Adjust padding-top for smaller screens */
+  }
+
+  .brand-logo {
+    font-size: 1.3rem; /* Adjust font size of brand logo for smaller screens */
+  }
+
+  .main-content {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .page-footer {
+    padding: 10px 0; /* Adjust padding for smaller screens */
+  }
+
+  .page-footer h5 {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+}
